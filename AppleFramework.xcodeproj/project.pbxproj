@@ -15,7 +15,7 @@
 		948CD2022812AD5F003DC0C4 /* AppleFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD2012812AD5F003DC0C4 /* AppleFrameworkTests.swift */; };
 		948CD20C2812AD5F003DC0C4 /* AppleFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD20B2812AD5F003DC0C4 /* AppleFrameworkUITests.swift */; };
 		948CD20E2812AD5F003DC0C4 /* AppleFrameworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD20D2812AD5F003DC0C4 /* AppleFrameworkUITestsLaunchTests.swift */; };
-		948CD21B2812ADBA003DC0C4 /* FramewokData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD21A2812ADBA003DC0C4 /* FramewokData.swift */; };
+		948CD21B2812ADBA003DC0C4 /* FrameworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948CD21A2812ADBA003DC0C4 /* FrameworkData.swift */; };
 		AECAA40028A0E3BC0080758C /* FrameworkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECAA3FF28A0E3BC0080758C /* FrameworkListViewController.swift */; };
 		AECAA40228A0E57A0080758C /* FrameworkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECAA40128A0E57A0080758C /* FrameworkCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -50,7 +50,7 @@
 		948CD2072812AD5F003DC0C4 /* AppleFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		948CD20B2812AD5F003DC0C4 /* AppleFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworkUITests.swift; sourceTree = "<group>"; };
 		948CD20D2812AD5F003DC0C4 /* AppleFrameworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFrameworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		948CD21A2812ADBA003DC0C4 /* FramewokData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramewokData.swift; sourceTree = "<group>"; };
+		948CD21A2812ADBA003DC0C4 /* FrameworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkData.swift; sourceTree = "<group>"; };
 		AECAA3FF28A0E3BC0080758C /* FrameworkListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListViewController.swift; sourceTree = "<group>"; };
 		AECAA40128A0E57A0080758C /* FrameworkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,7 +105,7 @@
 			children = (
 				948CD1EA2812AD5E003DC0C4 /* AppDelegate.swift */,
 				948CD1EC2812AD5E003DC0C4 /* SceneDelegate.swift */,
-				948CD21A2812ADBA003DC0C4 /* FramewokData.swift */,
+				948CD21A2812ADBA003DC0C4 /* FrameworkData.swift */,
 				AECAA3FF28A0E3BC0080758C /* FrameworkListViewController.swift */,
 				AECAA40128A0E57A0080758C /* FrameworkCollectionViewCell.swift */,
 				948CD1F02812AD5E003DC0C4 /* Main.storyboard */,
@@ -267,7 +267,7 @@
 				AECAA40228A0E57A0080758C /* FrameworkCollectionViewCell.swift in Sources */,
 				948CD1EB2812AD5E003DC0C4 /* AppDelegate.swift in Sources */,
 				948CD1ED2812AD5E003DC0C4 /* SceneDelegate.swift in Sources */,
-				948CD21B2812ADBA003DC0C4 /* FramewokData.swift in Sources */,
+				948CD21B2812ADBA003DC0C4 /* FrameworkData.swift in Sources */,
 				AECAA40028A0E3BC0080758C /* FrameworkListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
