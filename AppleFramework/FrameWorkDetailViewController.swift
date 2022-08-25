@@ -7,14 +7,42 @@
 
 import UIKit
 
+//Safari 서비스를 이용하기 위함
+import SafariServices
+
 class FrameWorkDetailViewController: UIViewController {
+    
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    
+    var framework: AppleFramework = AppleFramework(name: "Unknown", imageName: "", urlString: "", description: "")
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        updateUI()
     }
     
+    func updateUI() {
+        imageView.image = UIImage(named: framework.imageName)
+        titleLabel.text = framework.name
+        descriptionLabel.text = framework.description
+    }
 
+    @IBAction func learnMoreClicked(_ sender: UIButton) {
+        
+        guard let url = URL(string: framework.urlString) else {
+            return
+        }
+        
+        let safari = SFSafariViewController(url: url)
+        present(safari, animated: true)
+        
+    }
     
 
 }

@@ -57,7 +57,7 @@ extension FrameworkListViewController: UICollectionViewDelegate, UICollectionVie
         //FrameWorkDetailViewController 띄우기
         let sb = UIStoryboard(name: "Detail", bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: "FrameWorkDetailViewController") as! FrameWorkDetailViewController
-        
+        vc.framework = framework
         self.present(vc, animated: true)
     }
     
