@@ -53,7 +53,12 @@ extension FrameworkListViewController: UICollectionViewDelegate, UICollectionVie
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let framework = list[indexPath.item]
-        print(framework.name)
+        
+        //FrameWorkDetailViewController 띄우기
+        let sb = UIStoryboard(name: "Detail", bundle: nil)
+        let vc = sb.instantiateViewController(withIdentifier: "FrameWorkDetailViewController") as! FrameWorkDetailViewController
+        
+        self.present(vc, animated: true)
     }
     
     
